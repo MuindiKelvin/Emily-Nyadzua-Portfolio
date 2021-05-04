@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Home.css";
-import { Phone, Envelope, Files, Folder, Instagram, Facebook, Twitter, Journals, Truck, Basket } from 'react-bootstrap-icons';
+import { Envelope, Files, Folder, Instagram, Facebook, Twitter, Journals, Truck, Basket } from 'react-bootstrap-icons';
 
 function Home() {
   return (
@@ -54,7 +54,6 @@ function Home() {
     <div class="card">
       <h3><u>Get in Touch</u></h3>
       <p><Envelope className="ml-4" color="royalblue" />  <b>Email:</b> emilynyadzua72@gmail.com</p>
-      <p><Phone className="ml-4" color="royalblue"  /> <b>Phone:</b> +(254) 748 971 613</p>
       <p><Facebook className="ml-4" color="royalblue" />  <b>Facebook:</b>@nasrylemily</p>
       <p><Twitter className="ml-4" color="royalblue" />  <b>Twitter:</b>@nasrylemily</p>
       <p><Instagram className="ml-4" color="royalblue" />  <b>Instagram:</b>@nasrylemily</p>
