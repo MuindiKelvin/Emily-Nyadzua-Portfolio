@@ -1,0 +1,32 @@
+.footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: powderblue; 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+ }
+
+ .app__footer > h1 {
+    color: #fc3c3c;
+    font-size: 2rem;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 2.5em;
+  }
+  
+  .app__footer {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   justify-content: space-between;
+   margin-top: 20px;
+   align-content: center;
+   margin-right: 2.5em;
+  
+  }
+
+  .app__left {
+      align-content: center;
+  }
